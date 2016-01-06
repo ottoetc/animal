@@ -14,3 +14,33 @@
   background-color: lightgrey;
   border: 2px solid yellow;
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .column {
+    float: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .column {
+    float: none;
+  }
+  .column p {
+    border: none;
+  }
+}
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  .column {
+    float: none !important;
+  }
+  .column img {
+    display: none;
+  }
+  .column p {
+    border: none !important;
+  }
+}
