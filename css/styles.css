@@ -1,0 +1,16 @@
+.column {
+  width: 250px;
+  margin: 10px;
+  float: left;
+}
+.column img {
+  width: 250px;
+}
+.column h2 {
+  font-family: monospace;
+}
+.column p {
+  margin: 5px;
+  background-color: lightgrey;
+  border: 2px solid yellow;
+}
